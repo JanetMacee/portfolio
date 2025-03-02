@@ -1,0 +1,40 @@
+[
+    {
+        "name":"React (3years)",
+        "description":"Proficient in building reusable UI components, managing state, and optimizing performance with React.Exprienced in using React Hooks, context API, and popular libraries like Redux and React Router."
+    },
+    {
+        "name":"Html (5)",
+        "description":"Well-versed in writing semantic,accessible, and valid HTML5 markup for struturing content.Knowledge in using HTML microformates, ARIA attributes, and optimizing HTML for search engines"
+    },
+    {
+
+        "name":"Typyscript (",
+        "description":"Familiar with using Typescript for building scalable, maintainable, and type-safe Javascript applications.Knowledgeable in using Typescript interfaces,types, and classes"
+    },
+    {
+        "name":"Javascript (5years)",
+        "description":"Skilled in using Javascript for client-side scripting, DOM manipulation, and creating interactive web pages.Experienced in using Javascript libraries like jQuery, and modern Javascript features like async/await and Promises,"
+    },
+    {
+        "name":"Tailwindcss (2years)",
+        "description":"Experienced in using Tailwindcss for rapid and efficient styling, layout, and design of web applications.Knowledge in customizing Tailwind's configuration,using its utility-first approach, and integrating it with other css frameworks"
+    },
+    {
+        "name":"Next.js (1year)",
+        "description":"Proficient in building server-rendering, statically generated, and performance-optimized web applications with Next.js API's, getStaticProps, and getServerSideProps."
+
+    },
+    {
+        "name":"Node.js (2years)",
+        "description":"Experienced in using Node.js for building scalable, hight-performance server-side applications.Experienced in using Node.js frameworks like Express"
+    },
+    {
+        "name":"Express (2years)",
+        "description":"Experienced in building robust, modular, and efficient web applivations using the Express.js framework.Knowledgeable in using Express middleware, routing, and template engines"
+    },
+    {
+        "name":"MongoDB (2years)",
+        "description":"Skilled in designing, implementing, and quering NoSQL databases using MongoDB.Experienced in using MongoDB drivers, Mongoose, and MongoDB Alas"
+    }
+]
