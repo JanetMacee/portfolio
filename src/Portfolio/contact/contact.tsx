@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
+import "./contact.css";
 import emailjs from "@emailjs/browser";
 
 const Contact: React.FC = () => {
@@ -29,9 +30,9 @@ const Contact: React.FC = () => {
 	return (
 		<>
 			<form
-				className="shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
+				className="containers shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
 				onSubmit={sendEmail}>
-				<motion.div className="mt-9 ml-20 pt-20 text-lg font-bold">
+				<motion.div className="name mt-9 ml-20 pt-20 text-lg font-bold">
 					<motion.input
 						initial={{ x: 300, scale: 0.5, opacity: 0 }}
 						whileInView={{
@@ -49,7 +50,7 @@ const Contact: React.FC = () => {
 						placeholder="Full name"
 					/>
 				</motion.div>
-				<div className="mt-8 ml-20 text-lg font-bold">
+				<div className="email mt-8 ml-20 text-lg font-bold">
 					<motion.input
 						initial={{ x: 300, scale: 0.5, opacity: 0 }}
 						whileInView={{
@@ -67,7 +68,7 @@ const Contact: React.FC = () => {
 						placeholder="Email address"
 					/>
 				</div>
-				<div className="mt-8 ml-20 text-lg font-bold">
+				<div className="textarea mt-8 ml-20 text-lg font-bold">
 					<motion.input
 						initial={{ x: 300, scale: 0.5, opacity: 0 }}
 						whileInView={{
@@ -105,7 +106,7 @@ const Contact: React.FC = () => {
 						transition: { repeat: Infinity },
 					}}
 					type="submit"
-					className="border-2 outline-none ml-20 py-3 px-3 rounded-lg mt-8 font-bold">
+					className="button border-2 outline-none ml-20 py-3 px-3 rounded-lg mt-8 font-bold">
 					Send Message
 				</motion.button>
 			</form>

@@ -1,0 +1,31 @@
+
+
+
+/*moble SE*/
+@media only screen and (max-width:375px){
+    .Resume{
+        margin-inline-start: auto;
+        font-size: small;
+        font-weight: bold;
+        padding-left: 10px;
+        
+    }
+    .btn{
+        position: absolute;
+        top:45.8rem;
+        left:250px
+    }
+}
+@media only screen and (max-width:414px){
+    .Resume{
+       margin-inline-start: auto; 
+       font-size: large;
+       font-weight: bold;
+       padding-left: 20px;
+    }
+    .btn{
+        position:absolute;
+        top:57rem;
+        left:350px;
+    }
+}

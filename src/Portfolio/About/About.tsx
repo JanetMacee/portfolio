@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { useNavigate } from "react-router-dom";
+import "./About.css";
 const About: React.FC<{}> = () => {
 	const navigate = useNavigate();
 	interface customize {
@@ -16,10 +17,10 @@ const About: React.FC<{}> = () => {
 	};
 	return (
 		<motion.div
-			className="shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
+			className="About-container shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
 			style={customized}>
 			<motion.div
-				className="mt-9 ml-20 pt-20 text-lg"
+				className="intro mt-9 ml-20 pt-20 text-lg"
 				initial={{ opacity: 0, y: 100, scale: 0.2 }}
 				whileInView={{
 					y: 0,
@@ -40,7 +41,7 @@ const About: React.FC<{}> = () => {
 					scalable, user-centered applications that solve
 				</p>
 				<p>real business challenges</p>
-				<hr style={customized1} />
+				<hr className="horizontal" style={customized1} />
 			</motion.div>
 			<motion.div
 				className="py-10 border-2 my-5 mx-8 rounded-lg cursor-pointer"

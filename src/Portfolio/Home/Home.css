@@ -1,0 +1,32 @@
+@media only screen and (max-width:375px){
+    .containers{
+        width: 87%;
+        padding-top: 1px;
+    }
+    .images{
+        margin-left: 15px;
+    }
+    .name{
+        margin-right:8px
+    }
+    .personal{
+        margin-left: 15px;
+    }
+    .social{
+        padding-top: 15px;
+        img{
+            width: 50px
+        }
+    }
+}
+@media only screen and (max-width:414px){
+    .containers{
+        width: 505px;
+    }
+    .social{
+        padding-top:10px;
+        img{
+            width:50px
+        }
+    }
+}

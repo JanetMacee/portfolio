@@ -3,7 +3,23 @@
     text-decoration: underline;
 }
 .navHead{
-    width:"100px";
+    width:"100%";
     padding-right: 90px;
     padding-left: 90px;
+}
+@media only screen and (max-width:375px){
+    .navHead{
+        border:none;
+        box-shadow: none;
+    }
+    .navbar{
+        position:relative;
+        right: 55px;
+        font-size: small;
+    }
+}
+@media only screen and (max-width:414px){
+    .navbar{
+        
+    }
 }

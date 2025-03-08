@@ -5,9 +5,9 @@ import Node from "/image/nodesvg.svg";
 import Express from "/image/expresssvg.svg";
 import Mongodb from "/image/mongodbsvg.svg";
 import Next from "/image/nextjspng.png";
-//import Tailwind from "/image/tailwindsvg.svg";
 import { useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
+import "./Resume.css";
 const Resume: React.FC = () => {
 	//styles for image
 	const ImageStyle = {
@@ -18,9 +18,9 @@ const Resume: React.FC = () => {
 	const navigate = useNavigate();
 	return (
 		<>
-			<div className="shadow-2xl rounded-lg mx-8 relative border-2 pb-10">
+			<div className="Resume-container shadow-2xl rounded-lg mx-8 relative border-2 pb-10">
 				<motion.div
-					className="mt-9 ml-20 pt-20 text-lg"
+					className="education mt-9 ml-20 pt-20 text-lg"
 					initial={{ opacity: 0, y: 100, scale: 0.5 }}
 					whileInView={{
 						y: 0,
@@ -39,7 +39,7 @@ const Resume: React.FC = () => {
 					<p className="ml-5">General Science</p>
 				</motion.div>
 				<motion.div
-					className="ml-20 pt-10 text-lg"
+					className="experience ml-20 pt-10 text-lg"
 					initial={{ opacity: 0, y: 100, scaleY: 0.5 }}
 					whileInView={{
 						y: 0,
@@ -69,7 +69,7 @@ const Resume: React.FC = () => {
 					</ul>
 				</motion.div>
 				<motion.div
-					className="ml-20 pt-20"
+					className="skills ml-20 pt-20"
 					initial={{ opacity: 0, y: 100 }}
 					whileInView={{
 						y: 0,
@@ -83,10 +83,10 @@ const Resume: React.FC = () => {
 						<strong>My Skills</strong>
 					</h2>
 					<p className="mt-5">Front-End Skills</p>
-					<div className="flex space-x-3 cursor-pointer uppercase text-center font-bold">
+					<div className="skill flex space-x-3 cursor-pointer uppercase text-center font-bold">
 						<motion.div
 							onClick={() => navigate("/skillone")}
-							className="shadow-lg border-2"
+							className="react shadow-lg border-2"
 							whileHover={{ scaleX: 1.1 }}>
 							<img src={React} alt="react-image" style={ImageStyle} />
 							<p className="opacity-50">React</p>
@@ -129,7 +129,7 @@ const Resume: React.FC = () => {
 					</div>
 				</motion.div>
 				<motion.div
-					className="ml-20"
+					className="skills ml-20"
 					initial={{ opacity: 0, y: 100 }}
 					whileInView={{
 						y: 0,
@@ -140,7 +140,7 @@ const Resume: React.FC = () => {
 						},
 					}}>
 					<p className="mt-5">Back-End Skills</p>
-					<div className="flex space-x-3 uppercase font-bold text-center">
+					<div className="skill flex space-x-3 uppercase font-bold text-center">
 						<motion.div
 							onClick={() => navigate("/skillseven")}
 							className="shadow-lg border-2"

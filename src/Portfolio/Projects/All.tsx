@@ -1,14 +1,15 @@
 import Allitems from "./Allitems";
+import "./project.css";
 const All: React.FC = () => {
 	return (
 		<>
-			<div className="shadow-2xl rounded-lg mx-8 relative8 border-2 pb-10">
-				<div className="mt-1 ml-10 pt-20 text-lg flex justify-center items-center space-x-3">
+			<div className="all shadow-2xl rounded-lg mx-8 relative8 border-2 pb-10">
+				<div className="items mt-1 ml-10 pt-20 text-lg flex justify-center items-center space-x-3">
 					{Allitems.map((Allitem, id) => {
 						return (
 							<div
 								key={id}
-								className="shadow-lg border-2 px-4 py-3 rounded-lg"
+								className="item shadow-lg border-2 px-4 py-3 rounded-lg"
 								style={{ width: "20%" }}>
 								<h3 className="uppercase font-bold opacity-70 text-center">
 									{Allitem.name}
