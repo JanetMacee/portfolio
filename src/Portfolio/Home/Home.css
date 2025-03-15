@@ -1,9 +1,12 @@
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
     .containers {
-        width: 87%;
+        width: 100%;
         margin: 0;
         padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
     }
 
     .images {
@@ -12,7 +15,7 @@
     }
 
     .profile-image {
-        width: 80px; /* Smaller profile image for mobile */
+        width: 60px; /* Smaller profile image for mobile */
         height: 60px;
         margin-right: 10px;
     }
