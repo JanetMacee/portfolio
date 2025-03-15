@@ -30,28 +30,48 @@
         }
     }
 }*/
-@media only screen and (max-width: 600px) {
-  .containers {
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    border-width: 1px;
-  }
 
-  .images {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    margin-top: 10px;
-  }
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    .containers {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+    }
 
-  .profile-image, .name, .personal, .social {
-    margin: 10px 0;
-    text-align: center;
-  }
+    .images {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
 
-  .profile-image img {
-    width: 100px; /* Adjust this size as needed */
-    height: auto;
-  }
+    .profile-image {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 24px; /* Adjust font size to match the image */
+        margin-bottom: 10px;
+    }
+
+    .personal {
+        margin-left: 0;
+        text-align: center;
+        font-size: 16px; /* Adjust font size to match the image */
+    }
+
+    .personal  {
+        margin: 5px 0; /* Adjust spacing between contact info */
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 20px; /* Adjust spacing for social media links */
+    }
 }
