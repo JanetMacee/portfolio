@@ -25,7 +25,7 @@ const Personal: React.FC = () => {
 							className="w-20  border-2 border-yellow-400 px-2 rounded-xl"
 						/>
 					</div>
-					<div className="email">
+					<div>
 						<p>
 							<strong>Email</strong>
 						</p>
@@ -53,7 +53,7 @@ const Personal: React.FC = () => {
 							className="border-2 border-yellow-400 w-20 rounded-xl"
 						/>
 					</div>
-					<div className="phone">
+					<div>
 						<p>
 							<strong>Phone</strong>
 						</p>
@@ -79,7 +79,7 @@ const Personal: React.FC = () => {
 							className="w-20 border-2 border-yellow-400 rounded-xl"
 						/>
 					</div>
-					<div className="location">
+					<div>
 						<p>
 							<strong>Location</strong>
 						</p>
