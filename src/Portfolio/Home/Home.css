@@ -24,7 +24,7 @@
     }
 
     .personal {
-        margin-top: 35px;
+        margin-top: 10px;
         margin-left: 0; /* Remove left margin to align with profile image */
         font-size: 12px; /* Smaller personal info font size for mobile */
     }
@@ -32,7 +32,8 @@
     .personal-info {
         display: flex;
         flex-direction: column;
-        gap: 10px; /* Space between Email, Phone, Location */
+        column-gap:10px;
+        gap: 7px; /* Space between Email, Phone, Location */
     }
 
     .personal img {
