@@ -31,8 +31,7 @@
 
     .personal-info {
         display: flex;
-        flex-direction: column;
-        column-gap:10px;
+        flex-direction: row;
         gap: 7px; /* Space between Email, Phone, Location */
     }
 
