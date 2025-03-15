@@ -25,6 +25,7 @@
     }
 
     .personal {
+margin-top:10px
         margin-left: 10px;
         font-size: 12px; /* Smaller personal info font size for mobile */
     }
