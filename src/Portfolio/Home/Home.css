@@ -1,12 +1,9 @@
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
     .containers {
-        width: 100%;
+        width: 50%;
         margin: 0;
         padding: 15px;
-       
-        box-shadow: none;
-        
     }
 
     .images {
@@ -25,7 +22,7 @@
     }
 
     .personal {
-        margin-top:10px;
+        margin-top:20px;
         margin-left: 10px;
         font-size: 12px; /* Smaller personal info font size for mobile */
     }
