@@ -29,6 +29,11 @@
         font-size: 12px; /* Smaller personal info font size for mobile */
     }
 
+    .personal img {
+        width: 30px; /* Smaller images for Email, Phone, Location */
+        height: 30px;
+    }
+
     .social {
         margin-left: 10px;
     }
