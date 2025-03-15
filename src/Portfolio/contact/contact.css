@@ -1,4 +1,4 @@
-@media only screen and (max-width:375px){
+/*@media only screen and (max-width:375px){
     .name{
         margin-left: 34px;
         input{
@@ -18,4 +18,30 @@
     .containers{
         width: 87%;
     }
+}*/
+@media only screen and (max-width: 600px) {
+  .containers {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .name, .email, .textarea, .button {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .name input, .email input, .textarea input {
+    width: 90%;
+  }
+
+  .textarea input {
+    height: 15vh;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
 }
