@@ -23,24 +23,28 @@
         
     }
 }*/
-@media only screen and (max-width: 600px) {
-  .navHead {
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    border-width: 1px;
-    position: relative;
-  }
 
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    space-y: 2;
-    font-size: 1rem;
-  }
 
-  .navbar .nav {
-    margin: 5px 0;
-  }
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    .navHead {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+        position: static; /* Remove absolute positioning for mobile */
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px; /* Adjust font size to match the image */
+    }
+
+    .nav {
+        margin: 5px 0;
+    }
 }
