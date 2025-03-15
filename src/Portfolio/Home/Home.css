@@ -1,20 +1,22 @@
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
     .containers {
-        width: 50%;
-        margin: 0;
+        width: 90%; 
+        margin: 0 auto;
         padding: 15px;
     }
 
     .images {
         margin-left: 10px;
         margin-top: 0;
+        display: flex;
+        align-items: center; 
     }
 
     .profile-image {
-        width: 60px; /* Smaller profile image for mobile */
-        height: 60px;
-        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+        margin-right: 15px; /* Space between profile image and name */
     }
 
     .name {
@@ -22,14 +24,26 @@
     }
 
     .personal {
-        margin-top:20px;
-        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 0; /* Remove left margin to align with profile image */
         font-size: 12px; /* Smaller personal info font size for mobile */
+    }
+
+    .personal-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Space between Email, Phone, Location */
     }
 
     .personal img {
         width: 30px; /* Smaller images for Email, Phone, Location */
         height: 30px;
+        margin-right: 10px; /* Space between icon and text */
+    }
+
+    .email, .phone, .location {
+        display: flex;
+        align-items: center; /* Align icon and text vertically */
     }
 
     .social {
