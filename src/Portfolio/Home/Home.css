@@ -1,77 +1,37 @@
-/*@media only screen and (max-width:375px){
-    .containers{
-        width: 87%;
-        padding-top: 1px;
-    }
-    .images{
-        margin-left: 15px;
-    }
-    .name{
-        margin-right:8px
-    }
-    .personal{
-        margin-left: 15px;
-    }
-    .social{
-        padding-top: 15px;
-        img{
-            width: 50px
-        }
-    }
-}
-@media only screen and (max-width:414px){
-    .containers{
-        width: 505px;
-    }
-    .social{
-        padding-top:10px;
-        img{
-            width:50px
-        }
-    }
-}*/
-
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
     .containers {
         width: 100%;
         margin: 0;
         padding: 15px;
-        border-radius: 0;
-        box-shadow: none;
-        border: none;
     }
 
     .images {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
+        margin-left: 10px;
         margin-top: 0;
     }
 
     .profile-image {
-        text-align: center;
-        margin-bottom: 10px;
+        width: 60px; /* Smaller profile image for mobile */
+        height: 60px;
+        margin-right: 10px;
     }
 
     .name {
-        text-align: center;
-        font-size: 24px; /* Adjust font size to match the image */
-        margin-bottom: 10px;
+        font-size: 20px; /* Smaller name font size for mobile */
     }
 
     .personal {
-        margin-left: 0;
-        text-align: center;
-        font-size: 16px; /* Adjust font size to match the image */
-    }
-
-    .personal  {
-        margin: 5px 0; /* Adjust spacing between contact info */
+        margin-left: 10px;
+        font-size: 12px; /* Smaller personal info font size for mobile */
     }
 
     .social {
-        text-align: center;
-        margin-top: 20px; /* Adjust spacing for social media links */
+        margin-left: 10px;
+    }
+
+    .social img {
+        width: 20px; /* Smaller social media icons for mobile */
+        height: 20px;
     }
 }
