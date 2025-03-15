@@ -23,3 +23,24 @@
         
     }
 }*/
+@media only screen and (max-width: 600px) {
+  .navHead {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-width: 1px;
+    position: relative;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    space-y: 2;
+    font-size: 1rem;
+  }
+
+  .navbar .nav {
+    margin: 5px 0;
+  }
+}
