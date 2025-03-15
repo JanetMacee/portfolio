@@ -1,4 +1,4 @@
-@media only screen and (max-width:375px){
+/*@media only screen and (max-width:375px){
     .Resume-container{
       width: 87%;  
     }
@@ -30,4 +30,33 @@
         grid-gap: 2px;
         row-gap: 20px;
     }
+}*/
+@media only screen and (max-width: 600px) {
+  .Resume-container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .education, .experience, .skills {
+    margin-left: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .skill {
+    flex-direction: column;
+    align-items: center;
+    space-y: 10px;
+  }
+
+  .skill div {
+    margin: 10px 0;
+  }
+
+  .skill img {
+    width: 70%; /* Adjust this size as needed */
+    height: auto;
+  }
 }
