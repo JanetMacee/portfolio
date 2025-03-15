@@ -1,4 +1,4 @@
-@media only screen and (max-width:375px){
+/*@media only screen and (max-width:375px){
     .About-container{
         width:"87%"
     }
@@ -16,4 +16,37 @@
     .horizontal{
         display:  none;
     }
+}*/
+@media only screen and (max-width: 600px) {
+  .About-container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  .intro {
+    margin-left: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .horizontal {
+    width: 90%;
+  }
+
+  .py-10, .border-2 {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .font-bold, .text-center {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  h2, p {
+    text-align: center;
+    margin: 10px 0;
+  }
 }
