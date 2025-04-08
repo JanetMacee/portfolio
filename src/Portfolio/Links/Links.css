@@ -16,3 +16,22 @@
         background-color: gray;
     }
 }*/
+/* Media query for mobile screens */
+/*@media only screen and (max-width: 768px) {
+    .navHead {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        position: static; 
+    }
+
+    .navbar {
+        flex-direction: row;
+        gap: 10px;
+        font-size: 14px; 
+    }
+
+    .nav {
+        margin: 0 5px;
+    }
+}*/

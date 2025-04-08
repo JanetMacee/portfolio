@@ -27,7 +27,7 @@
 }
 
 /* Media queries for mobile screens */
-@media (max-width: 576px) {
+/*@media (max-width: 576px) {
   .containers {
     margin: 1rem;
     padding: 0.5rem;
@@ -55,4 +55,62 @@
     margin-top: 1rem;
     text-align: center;
   }
+}*/
+/* Media query for mobile screens */
+/*@media only screen and (max-width: 768px) {
+    .containers {
+        width: 90%; 
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .images {
+        margin-left: 10px;
+        margin-top: 0;
+        display: flex;
+        align-items: center; 
+    }
+
+    .profile-image {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px; 
+    }
+
+    .name {
+        font-size: 20px; 
+    }
+
+    .personal {
+        margin-top: 20px;
+        margin-left: 0; 
+        font-size: 12px; 
+    }
+
+    .personal-info {
+        display: flex;
+        flex-direction: column;
+        gap: 7px; 
+    }
+
+    .personal img {
+        width: 30px; 
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .email, .phone, .location {
+        display: flex;
+        align-items: center; 
+    }
+
+    .social {
+        margin-left: 10px;
+    }
+
+    .social img {
+        width: 20px;
+        height: 20px;
+    }
 }
+*/
