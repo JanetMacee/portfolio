@@ -1,32 +1,58 @@
-@media only screen and (max-width:375px){
-    .containers{
-        width: 87%;
-        padding-top: 1px;
-    }
-    .images{
-        margin-left: 15px;
-    }
-    .name{
-        margin-right:8px
-    }
-    .personal{
-        margin-left: 15px;
-    }
-    .social{
-        padding-top: 15px;
-        img{
-            width: 50px
-        }
-    }
+/* Base styles */
+.containers {
+  width: auto;
+  margin: 2rem;
+  margin-top: 1.25rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
 }
-@media only screen and (max-width:414px){
-    .containers{
-        width: 505px;
-    }
-    .social{
-        padding-top:10px;
-        img{
-            width:50px
-        }
-    }
+
+.images {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+}
+
+.profile-image {
+  margin-right: 1rem;
+}
+.personal {
+  margin-left: 5rem;
+  margin-top: 1.25rem;
+}
+
+.social {
+  margin-left: 5rem;
+  margin-top: 1.25rem;
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 576px) {
+  .containers {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .profile-image {
+    margin-bottom: 1rem;
+  }
+
+  .name {
+    margin-bottom: 1rem;
+    font-size: small;
+  }
+
+  .personal,
+  .social {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
 }

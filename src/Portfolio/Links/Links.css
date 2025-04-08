@@ -6,20 +6,13 @@
     width:"100%";
     padding-right: 90px;
     padding-left: 90px;
+    position: absolute;
+    top:575px;
+    bottom:10px;
 }
-@media only screen and (max-width:375px){
+/*@media only screen and (max-width:576px){
     .navHead{
-        border:none;
-        box-shadow: none;
+        width: 88%;
+        background-color: gray;
     }
-    .navbar{
-        position:relative;
-        right: 55px;
-        font-size: small;
-    }
-}
-@media only screen and (max-width:414px){
-    .navbar{
-        
-    }
-}
+}*/

@@ -1,32 +1,25 @@
-@media only screen and (max-width:375px){
+/*@media only screen and (max-width:576px){
     .project{
-        width: 87%;
+        width: 88%;
     }
-    .subnav{
-        margin-left: 12px;
-        font-size: small;
-    }
+    
     .all{
-        width: 87%;
+        width: 88%;
     }
     .items{
-        gap: 10px;
-        flex-direction: column;
-        width: 870px;
-        position: relative;
-        right: 320px;
-        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
     }
     .item{
-        font-size: small;
-        padding-left: 10px;
+        width: 900px;
         img{
-            width: 100%;
-            height: 100vh;
+            width: 900px;
+            height: 700px;
         }
-    }
-}
-@media only screen and (max-width:414px){
+    }*/
+
+/*@media only screen and (max-width:414px){
     .project{
         width: 505px;
     }
@@ -38,4 +31,4 @@
         grid-template-columns: repeat(2,1fr);
         grid-gap: 0px;
     }
-}
+}*/

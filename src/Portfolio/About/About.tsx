@@ -3,24 +3,10 @@ import { useNavigate } from "react-router-dom";
 import "./About.css";
 const About: React.FC<{}> = () => {
 	const navigate = useNavigate();
-	interface customize {
-		bottom: string;
-	}
-	const customized: customize = {
-		bottom: "2px",
-	};
-	interface customize1 {
-		width: string;
-	}
-	const customized1: customize1 = {
-		width: "990px",
-	};
 	return (
-		<motion.div
-			className="About-container shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
-			style={customized}>
+		<motion.div className="About-container shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10">
 			<motion.div
-				className="intro mt-9 ml-20 pt-20 text-lg"
+				className="intro mt-9 pt-20 text-lg text-center"
 				initial={{ opacity: 0, y: 100, scale: 0.2 }}
 				whileInView={{
 					y: 0,
@@ -30,8 +16,7 @@ const About: React.FC<{}> = () => {
 						duration: 2,
 						delay: 0.5,
 					},
-				}}
-				viewport={{ once: true }}>
+				}}>
 				<p>
 					I&apos;m a Fullstack Developer skilled in Javascript, ReactJs, NextJs,
 					Node.js Express, and Tailwindcss, with experience in
@@ -41,10 +26,10 @@ const About: React.FC<{}> = () => {
 					scalable, user-centered applications that solve
 				</p>
 				<p>real business challenges</p>
-				<hr className="horizontal" style={customized1} />
+				<hr className="horizontal" />
 			</motion.div>
 			<motion.div
-				className="py-10 border-2 my-5 mx-8 rounded-lg cursor-pointer"
+				className="py-8 border-2 my-5 mx-20 rounded-lg cursor-pointer"
 				initial={{ opacity: 0, y: 100 }}
 				whileInView={{
 					y: 0,
@@ -91,7 +76,7 @@ const About: React.FC<{}> = () => {
 				</motion.p>
 			</motion.div>
 			<motion.div
-				className="border-2 mx-8 rounded-lg py-10 cursor-pointer"
+				className="border-2 mx-20 rounded-lg py-8 cursor-pointer my-5"
 				initial={{ opacity: 0, y: 100 }}
 				whileInView={{
 					y: 0,

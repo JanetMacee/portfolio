@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
 	return (
 		<>
 			<form
-				className="containers shadow-2xl rounded-lg mx-8 relative border-2 pb-10"
+				className="containers shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10"
 				onSubmit={sendEmail}>
 				<motion.div className="name mt-9 ml-20 pt-20 text-lg font-bold">
 					<motion.input
@@ -44,6 +44,7 @@ const Contact: React.FC = () => {
 						whileFocus={{ color: "white", backgroundColor: "GrayText", x: 50 }}
 						className="border-2 rounded-lg py-3 pl-3 outline-none w-80"
 						type="text"
+						required
 						name="from_name"
 						value={name}
 						onChange={(e) => setName(e.target.value)}
@@ -63,13 +64,14 @@ const Contact: React.FC = () => {
 						className="border-2 rounded-lg py-3 pl-3 outline-none w-80"
 						type="email"
 						name="user_email"
+						required
 						value={email}
 						onChange={(e) => setEmail(e.target.value)}
 						placeholder="Email address"
 					/>
 				</div>
 				<div className="textarea mt-8 ml-20 text-lg font-bold">
-					<motion.input
+					<motion.textarea
 						initial={{ x: 300, scale: 0.5, opacity: 0 }}
 						whileInView={{
 							x: 0,
@@ -78,8 +80,10 @@ const Contact: React.FC = () => {
 							transition: { duration: 2 },
 						}}
 						whileFocus={{ color: "white", backgroundColor: "GrayText", x: 50 }}
-						type="textarea"
+						cols={30}
+						rows={3}
 						name="message"
+						required
 						value={textarea}
 						onChange={(e) => setTextArea(e.target.value)}
 						className="border-2 rounded-lg py-3 pl-3 outline-none "

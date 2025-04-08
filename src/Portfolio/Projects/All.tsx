@@ -3,7 +3,7 @@ import "./project.css";
 const All: React.FC = () => {
 	return (
 		<>
-			<div className="all shadow-2xl rounded-lg mx-8 relative8 border-2 pb-10">
+			<div className="all shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10">
 				<div className="items mt-1 ml-10 pt-20 text-lg flex justify-center items-center space-x-3">
 					{Allitems.map((Allitem, id) => {
 						return (
